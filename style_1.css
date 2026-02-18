@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(232, 123, 15);
+    text-align: center; 
+}
+
+.introSay{
+    font-family: Lobster;
+    font-size: 7rem;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-shadow: 0.05em 0.15em 0.025em rgb(103, 72, 72);
+}
+.playerTitle{
+    margin-top: 10px;
+    padding-top: 0px;
+    font-family: Just Another Hand;
+    width: 100%;
+    letter-spacing: 3.5px;
+    color: rgb(255, 255, 255); 
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 21vw;    
+}
+.diceTurn{
+    display: flex;
+    flex-direction: row;
+    gap: 13vw;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+}
+
+#winner{
+    background-color: rgb(33, 227, 7);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#loser{
+    background-color: rgb(237, 18, 18);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#draw{
+    background-color: rgb(190, 197, 13);
+    padding: 20px;
+    border-radius: 50px;
+}
